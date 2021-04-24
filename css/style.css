@@ -1,4 +1,5 @@
 
+
 /*--------------- basic styling --------------- */
 html, body {
       margin: 0;
@@ -12,22 +13,7 @@ html, body {
 body #bold{
       color: snow;
 }
-.sk{
-      overflow: hidden;
-      width: 245px;
-      height: 250px;
-       margin-left: 220px; 
-       margin-top: 50px;
-       border: aqua solid;
-       border-radius: 100%;
-}
-.nom{border: solid aqua;
-      margin-left: 200px;
-      text-decoration-style: dotted;
-      margin-top:20px;
-      width: 300px;
-      padding: 5px;
-}
+
 
 .icon{
       width: 60px;
@@ -42,20 +28,7 @@ body #bold{
       text-align: center;
 }
 
-.skills{
-      padding-top: 0%;
-      padding-bottom: 5%;
-      height: 90%;
-      width: 95%;
-      margin-left:0;
-      color: snow;
-      
-}
-.skills li{
-      list-style: none;
-      margin: 20px 0;
 
-}
 .bar{
       background: #353b48;
       display: block;
@@ -313,7 +286,6 @@ nav #menu li a:hover {
       visibility: visible;
       opacity: 1;
 }
-
 @media(max-width: 768px) {
       #toggle {
             visibility: visible;
@@ -748,6 +720,71 @@ h4 {
       height: 500px;
       margin-top: 120px;
 }
+.skills{
+      padding-top: 0%;
+      padding-bottom: 5%;
+      height: 90%;
+      width: 90%;
+      margin-left:5%;
+      margin-top: 5%;
+      color: snow;
+      
+}
+.skills li{
+      list-style: none;
+      margin: 20px 0;
+
+}
+.sk{
+      overflow: hidden;
+      width: 50%;
+      height: 50%;
+
+       margin-left:25%; 
+     
+      
+}
+.nom{border: solid aqua;
+      position: relative;
+      margin-left:10%;
+      text-decoration-style: dotted;
+      margin-top:10%;
+      width: 80%;
+      padding: 2%;
+}
+.nom h6{
+     
+      font-size:100%;
+}
+@media(max-width: 768px) {
+      .nom{
+       border: solid aqua;
+      border-left: none;
+      border-right: none;
+      margin-left:10%;
+      text-decoration-style: dotted;
+      margin-top:10%;
+       width: 80;
+      padding: 2%;
+}
+.nom h6{
+     
+      font-size: 80%;
+      font-
+}
+.sk{
+      overflow: hidden;
+      width: 50%;
+      height: 50%;
+
+       margin-left:25%; 
+       
+       border: aqua solid;
+       border-radius: 0%;
+}
+    
+}
+
 
 /*.image {
       background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
